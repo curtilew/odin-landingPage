@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navigation {
+    display: flex;
+    background-color: #1f2937;
+}
+
+ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: 200px;
+
+}
+
+li, a {
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 10px;
+}
+
+h1 {
+    color:  #F9FAF8;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 200px;
+    align-self: center;
+
+}
