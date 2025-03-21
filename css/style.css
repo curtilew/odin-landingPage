@@ -24,7 +24,7 @@ li, a {
     list-style: none;
     text-decoration: none;
     color: #E5E7EB;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 h1 {
@@ -57,6 +57,7 @@ footer {
     padding-top: 40px;
     
 }
+
 
 h2 {
     font-weight: 900;
@@ -131,4 +132,35 @@ img {
 .box-words {
     width: 200px;
 
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #E5E7EB;
+    color: #1f2937;
+    font-size: 24px;
+    padding: 60px;
+    align-items: center;
+}
+
+.language {
+    width: 500px;
+
+
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sig {
+    text-align: right;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 20px;
 }
