@@ -1,10 +1,12 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+
 
 }
 
-.navigation {
+.header {
     display: flex;
     background-color: #1f2937;
 }
@@ -32,4 +34,16 @@ h1 {
     margin-left: 200px;
     align-self: center;
 
+}
+
+footer {
+
+    background-color: #1f2937;
+    color: #E5E7EB;
+    height: 60px;
+    align-content: center;
+    text-align: center;
+    margin-bottom: auto;
+    font-size: 12px;
+    
 }
