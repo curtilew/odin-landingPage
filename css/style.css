@@ -86,6 +86,7 @@ img {
     color: white;
     font-size: 10px;
     border-radius: 10px;
+    border-color: white;
     padding: 5px;
     width: 80px;
     height: 50x;
@@ -163,4 +164,40 @@ img {
     font-weight: 900;
     font-size: 20px;
     margin-top: 20px;
+}
+
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    padding: 60px;
+    align-items: center;
+}
+
+.signup {
+    width: 700px;
+    border-radius: 5px;
+    display: flex;
+    padding: 40px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.calltoaction {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+button {
+    margin-left: auto;
+    background-color: #3882F6;
+    color: white;
+    border-width: 2px ;
+    border-color: white;
+    border-radius: 8px;
+    width: 100px;
 }
